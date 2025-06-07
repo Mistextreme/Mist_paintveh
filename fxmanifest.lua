@@ -7,12 +7,12 @@ lua54 'yes'
 
 shared_scripts {
     '@ox_lib/init.lua',
-    'config.lua',
+    'config_preview.lua',
 }
 
 client_scripts {
     'functions.lua',
-    'client.lua',
+    'client_preview.lua',
 }
 server_script 'server.lua'
 
